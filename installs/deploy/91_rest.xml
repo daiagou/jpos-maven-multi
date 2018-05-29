@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dragon-rest class="com.qiqi.util.BankRest" logger="Q2" name="bank-rest">
+    <property name="port" value="8090"/>
+    <property name="contextPath" value="/mvnJpos"/>
+
+    <property name="packagesToScan" value="com.qiqi.controller"/>
+    <property name="pathSpec" value="/*"/>
+</dragon-rest>
